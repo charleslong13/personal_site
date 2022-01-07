@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1155,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("https://cdn.pixabay.com/photo/2018/04/22/02/41/nashville-3340046_960_720.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1656,3 +1659,31 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 4px;
+		
+		  }
+		  
+		  /* Create two equal columns that sits next to each other */
+		  .column {
+			flex: 50%;
+			padding: 0 4px;
+			
+		  }
+		  
+		  .column img {
+			margin-top: 8px;
+			margin-right: 8px;
+			margin-left: 12px;
+			margin-bottom: 8px;
+			vertical-align: middle;
+			width: 140px;
+			height: 140px;
+			
+			
+		  }
+
+		  
